@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from pathlib import Path
 import datetime
 
-client= MongoClient("mongodb+srv://user1:user123@cluster0.rnd2980.mongodb.net/")
+client= MongoClient("")
 db=client.books_data
 
 def insert(page,title,image,rating,price,availability):
